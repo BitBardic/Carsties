@@ -1,10 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
-
-module.exports = nextConfig
-
-module.exports = {
+const nextConfig = {
+    images: {
+        domains: ['cdn.pixabay.com']
+    },
     experimental: {
         logging: "verbose"
     }
 }
+
+module.exports = nextConfig
