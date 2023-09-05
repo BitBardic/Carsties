@@ -1,9 +1,10 @@
 import React from 'react'
 import CountdownTimer from './CountdownTimer'
 import CartImage from './CartImage'
+import { Auction } from '@/types'
 
 type Props = {
-    auction: any
+    auction: Auction
 }
 
 export default function AuctionCard({ auction }: Props) {
