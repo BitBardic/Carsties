@@ -1,4 +1,3 @@
-import { Label, TextInput } from 'flowbite-react'
 import React from 'react'
 import { UseControllerProps, useController } from 'react-hook-form'
 import 'react-datepicker/dist/react-datepicker.css';
@@ -21,7 +20,7 @@ export default function DateInput(props: Props) {
                 selected={field.value}
                 placeholderText={props.label}
                 className={`
-                    rounded-lg w-{100%} flex flex-col
+                    rounded-lg w-[100%] flex flex-col
                     ${fieldState.error
                         ? 'bg-red-50 border-red-500 text-red-900'
                         : (!fieldState.invalid && fieldState.isDirty)
