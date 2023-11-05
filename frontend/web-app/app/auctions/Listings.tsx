@@ -43,7 +43,7 @@ export default function Listings() {
       setData(data);
       setLoading(false);
     })
-  }, [url])
+  }, [url, setData, setLoading])
 
   if (!data) return <h3>Loading...</h3>
 

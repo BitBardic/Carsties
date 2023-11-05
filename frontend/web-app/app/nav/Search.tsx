@@ -35,7 +35,8 @@ export default function Search() {
                 input-custom
                 text-sm
                 text-gray-600
-            '
+                '
+                name='search'
             />
             <button onClick={search}>
                 <FaSearch
